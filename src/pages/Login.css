@@ -1,0 +1,43 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+      height: 50%;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+      transition: 0.3s;
+      margin: 200px 550px;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 300px;
+    }
+  }
+  .form{
+    height: 300px;
+    width: 200px;
+  }
+
+  .input{
+    margin: 20px;
+  }
+
+  .button{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid grey;
+    margin-left: 20px;
+  }
+
+  .doctor-login{
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+    background-color: yellow;
+  }
